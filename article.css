@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=M+PLUS+1:wght@100..900&display=swap');
+
+.content{
+  h1 {
+  font-family: "M PLUS 1", "Noto Sans JP";
+  font-weight: 700;
+  }
+  .author, .author a, .byline {
+    font-family: "Noto Sans JP";
+    font-weight: 300;
+  }
+}
+
+.content .right-rail .ad {
+    background-image: url(img/17776-ads-276x500.jpg);
+}
+@media (min-width: 40em) {
+    .content .right-rail .ad {
+        background-image: url(img/17776-ads-600x800.jpg);
+    }
+}
+@media (min-width: 64em) {
+    .content .right-rail .ad {
+        background-image: url(img/17776-ads-300x5000.jpg);
+    }
+}
