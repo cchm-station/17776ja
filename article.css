@@ -28,3 +28,14 @@
 .hide .wide-image .message {
   font-weight: 800;
 }
+
+.footer { 
+  dl, dt, dd {margin:0}
+  dt {
+    margin-top:8px;
+    font-weight: normal;
+  }
+  dd {margin-left:1em;
+    font-size:0.8rem
+  }
+}
